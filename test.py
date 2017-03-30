@@ -5,11 +5,11 @@ def main():
 	else:
 		name = "Osama"
 
-	print "attempting test with name " + name
+	print ("attempting test with name " + name)
 	
 	assert helloWorld.printName(name) == "Hello World, I am " + name
 
-	print "All assertion conditions met!"
+	print ("All assertion conditions met!")
 	return True
 	
 if __name__ == "__main__":
