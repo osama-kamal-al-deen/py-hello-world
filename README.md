@@ -1,2 +1,2 @@
 # py-hello-world
-Hello World python application for Jenkins,.
+Hello World python application for Jenkins.
