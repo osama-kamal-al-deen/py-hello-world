@@ -8,7 +8,7 @@ def main():
 	print ("attempting test with name " + name)
 	
 	assert helloWorld.printName(name) == "Hello World, I am " + name
-	assert helloWorld.changeTest() == False
+	assert helloWorld.changeTest() == True
 
 	print ("All assertion conditions met, msg v2!")
 	return True
